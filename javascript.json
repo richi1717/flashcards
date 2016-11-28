@@ -1,0 +1,104 @@
+{
+  "javascript": [
+    {
+      "question": "What is a closure?",
+      "answer": "A mechanism that allows a function to access all variables that are in scope when the function itself is created.",
+      "id": 0
+    },
+    {
+      "question": "What is hoisting?",
+      "answer": "just a simplistic view. Variables and functions are visited and registered in lexical environments before any code is executed.",
+      "id": 1
+    },
+    {
+      "question": "What is JavaScript?",
+      "answer": "JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML pages.",
+      "id": 2
+    },
+    {
+      "question": "What is a named function?",
+      "answer": "A named function has a name when it is defined.",
+      "id": 3
+    },
+    {
+      "question": "How many types of functions does JavaScript support?",
+      "answer": "2, named and anonymous",
+      "id": 4
+    },
+    {
+      "question": "How do you define an anonymous function?",
+      "answer": "Same as a named function but without the name `const myFunc = function () {...};`",
+      "id": 5
+    },
+    {
+      "question": "How do you define a named function?",
+      "answer": "Same as an anonymous function but with the name `function myFunc() {...};`",
+      "id": 6
+    },
+    {
+      "question": "Can you assign a anonymous function to a variable?",
+      "answer": "Yes! An anonymous function can be assigned to a variable.",
+      "id": 7
+    },
+    {
+      "question": "Can you pass an anonymous function as an argument to another function?",
+      "answer": "Yes! An anonymous function can be passed as an argument to another function.",
+      "id": 8
+    },
+    {
+      "question": "What is the arguments object in JavaScript?",
+      "answer": "JavaScript variable arguments represents the arguments passed to a function.",
+      "id": 9
+    },
+    {
+      "question": "How can you get the total number of arguments passed to a function?",
+      "answer": "Using the arguments.length property, we can get the total number of arguments passed to a function.",
+      "id": 10
+    },
+    {
+      "question": "What is the purpose of `this` operator in JavaScript?",
+      "answer": "The JavaScript keyword `this` always refers to the current context.",
+      "id": 11
+    },
+    {
+      "question": "What are the valid scopes of a variable in JavaScript?",
+      "answer": "The scope of a variable is the region of your program in which it is defined. JavaScript variables will have only two scopes: Global and Local",
+      "id": 12
+    },
+    {
+      "question": "Which type of variable among global and local, takes precedence over the other if the names are same?",
+      "answer": "A local variable takes precedence over a global variable with the same name.",
+      "id": 13
+    },
+    {
+      "question": "What is a callback?",
+      "answer": "A callback is a plain JavaScript function passed to some method as an argument or option. Some callbacks are just events, called to give the user a chance to react when a certain state is triggered.",
+      "id": 14
+    },
+    {
+      "question": "Which built-in method returns the character at the specified index?",
+      "answer": "`charAt()` method returns the character at the specified index.",
+      "id": 15
+    },
+    {
+      "question": "Which built-in method combines the text of two strings and returns a new string?",
+      "answer": "`concat()` method returns the character at the specified index. Example: `'Hel'.concat('lo'); -> 'Hello'`",
+      "id": 16
+    },
+    {
+      "question": "Which built-in method calls a function for each element in the array?",
+      "answer": "`forEach()` method calls a function for each element in the array.",
+      "id": 17
+    },
+    {
+      "question": "Which built-in method returns the index within the calling String object of the first occurrence of the specified value?",
+      "answer": "`indexOf()` method returns the index within the calling String object of the first occurrence of the specified value, or −1 if not found.",
+      "id": 18
+    },
+    {
+      "question": "Which built-in method returns the length of the string?",
+      "answer": "`length()` method returns the length of the string.",
+      "id": 19
+    }
+  ]
+}
