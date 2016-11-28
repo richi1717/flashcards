@@ -52,7 +52,7 @@
     },
     {
       "question": "How can you get the total number of arguments passed to a function?",
-      "answer": "Using the arguments.length property, we can get the total number of arguments passed to a function.",
+      "answer": "Using the `arguments.length` property, we can get the total number of arguments passed to a function.",
       "id": 10
     },
     {

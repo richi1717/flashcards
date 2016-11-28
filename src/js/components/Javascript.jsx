@@ -41,20 +41,26 @@ class Javascript extends Component {
     };
     const styleBlue = {
       color: 'green',
+      maxWidth: '30rem',
       display: this.state.show ? null : 'none'
     };
     this.finalDb.map((obj, ind) => {
-      const test = obj.answer.split('`');
+      const question = obj.question.split('`');
+      const answer = obj.answer.split('`');
       arr.push(
         <div key={ind}>
-          <div style={styleGreen}>{obj.question}</div>
+          <div style={styleGreen}>
+            {question[0]}
+            <span><em>{question.length > 1 ? question[1] : null}</em></span>
+            {question.length > 2 ? question[2] : null}
+          </div>
           <div style={styleBlue}>
-            {test[0]}
-            <span><em>{test.length > 1 ? test[1] : null}</em></span>
-            {test.length > 2 ? test[2] : null}
-            <span><em>{test.length > 3 ? test[3] : null}</em></span>
-            <span><em>{test.length > 4 ? test[4] : null}</em></span>
-            <span><em>{test.length > 5 ? test[4] : null}</em></span>
+            {answer[0]}
+            <span><em>{answer.length > 1 ? answer[1] : null}</em></span>
+            {answer.length > 2 ? answer[2] : null}
+            <span><em>{answer.length > 3 ? answer[3] : null}</em></span>
+            <span><em>{answer.length > 4 ? answer[4] : null}</em></span>
+            <span><em>{answer.length > 5 ? answer[4] : null}</em></span>
           </div>
         </div>
       );
